@@ -1,0 +1,312 @@
+
+
+.list{
+    list-style-type: none;
+    display: flex;
+    margin: 0px;
+    padding: 5px;
+   gap: 15px;
+   position:fixed;
+   top: 0px;
+   background-color: #fff;
+   width: 100%;
+   z-index: 1;
+   height: 70px;
+   text-align: center;
+   justify-content: space-between;
+   
+}
+.nav-text{
+    text-decoration: none;
+    color: rgb(67, 66, 66);
+}
+
+.linklist-title{
+    margin: 15px;
+    font-size: 18px;
+}
+.user {
+    width: 30px;
+    height: auto;
+    border:solid #6c757d 2px;
+    border-radius: 50px;
+}
+
+.nav-item{
+    margin: 13px;
+    border-radius: 15px;
+    border: none;
+    background-color:#e3e7ec;
+    width: 250px;
+    height: 32px;
+    font-size: 14px;
+    transition: all .3s ease;
+  align-items: center;
+  padding: 10px;
+  
+
+}
+
+.dropdown-link{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 15px;
+    height: 47px;
+    width: 150px;
+    display: none;
+}
+.dropdown-content{
+    position: absolute;
+    margin: 5px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    text-align: center;
+    z-index: 1
+    /* border: 2px solid red; */
+} 
+
+.linklist-title:hover .dropdown-link{
+    display: block;
+}
+
+/* .navbar :hover .nav-text {
+    color: #6c757d;
+} */
+
+
+
+.search-bar{
+  justify-content: space-between;
+  /* background-color: red; */
+  color: white;
+  align-items: center;
+  
+}
+
+.logo {
+   margin: 15px;
+   padding: 0px;
+   height: 25px; 
+}
+.slideimg img{
+    width: 100%;
+    /* height: 700px; */
+    margin: 0px;
+    /* position: relative; */
+    height: auto;
+    display: flex;
+    /* margin: 5px; */
+    overflow-y: scroll;
+   
+}
+
+.navbar{
+    top: 10px;   
+    width: 100%;
+    height:  60px;
+    /* justify-content: space-between; */
+}
+
+.img-fluid{
+    border-radius: 18px;
+    justify-content: center;
+}
+
+.content_1{
+    margin: 20px;
+    padding: 5px;
+    font-size: x-large;
+}
+
+.content_1 .view {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.filter{
+    text-align: center;
+}
+
+/* .new_products{
+    border: 5px solid green;
+    display: flex;
+    gap: 5px;
+}
+.items{
+    border: 1px solid red;
+} */
+
+.card-body{
+   
+    border-radius: 15px;
+    
+}
+.button{
+    background-color: black;
+    text-decoration: none;
+    color: #fff;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: small;
+    /* float:inline-end; */
+    position: relative;
+    right: -67%;
+    bottom:35px ;
+    
+    
+}
+
+
+.card-title{
+    font-size: small;
+}
+
+.content_1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.view{
+    font-size: medium;
+}
+
+.mysect{
+    display: flex;
+   justify-content: center;
+   gap: 5%;
+   margin: 10px;
+   padding: 10px;
+   /* border: 2px solid red; */
+
+}
+.icon{
+   /* border: 2px solid red; */
+justify-content: center;
+width: 180px;
+align-items: center;
+text-align: center;
+
+}
+.icon img {
+    height: 120px;
+    width: 120px;
+    justify-content: center  
+
+}
+
+.icon_letter{
+    font-size: large;
+    font-weight: 500;
+    color:#6c757d;
+    text-align: center;
+
+   /* border: 2px solid red; */
+   
+}
+
+.productlist .filter a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    font-weight: 400;
+}
+
+
+
+
+
+
+/* footer */
+
+.footer_item{
+   /* border: 2px solid green; */
+   display: flex;
+   height: 350px;
+   margin: 20px;
+   padding: 10px;
+   /* align-items: center; */
+   gap: 100px;
+   text-align: center;
+   background-color: #e9ecef;
+   
+}
+
+.block{
+    width: 200px;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    padding: 30px;
+    width: 250px;
+
+}
+
+.block {
+    font-size: large;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ct{
+   
+    color: grey;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font-style: italic; */
+    font-size: medium;
+    /* border: 1px solid red; */
+    margin: 5px;
+    
+
+}
+
+
+.search_email{
+    padding: 30px ;
+    width: 80%;
+    border-radius: 7px;
+    outline: none;
+
+
+}
+
+.block_b {
+    font-size: large;
+    font-weight: 400;
+    width: 400px;
+   
+    /* border: 1px solid red; */
+    
+}
+
+.S_email{
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    width: 300px;
+    padding: 7px;
+}
+
+.footer_item{
+    border-radius: 5px;
+    /* justify-content: center; */
+    padding-top: 50px;
+}
+
+/* Smartwatch Start*/
+
+header h2 {
+    padding: 15px;
+    margin: 10px;
+}
+
+main .row .col-3 {
+    padding: 15px;
+}
+main .row .col-3 img {
+    width: 100%;
+    height: 300px;
+}
